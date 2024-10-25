@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+
+nav {
+  position: fixed; /* Keep navbar fixed */
+  width: 100%; /* Full width */
+  z-index: 1000; /* On top of other elements */
+}
