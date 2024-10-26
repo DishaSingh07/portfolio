@@ -84,13 +84,13 @@ import React from 'react';
 // Import your project images if available
 import projectOneImage from '../assets/payment ss.png';
 import projectTwoImage from '../assets/password ss.png';
-import projectThreeImage from '../assets/project-3.png';
+import projectThreeImage from '../assets/blogging ss.png';
 
 const projects = [
   {
     title: "Digital Payment App",
     description: "A comprehensive digital wallet and payment application ",
-    techStack: ["React", "Tailwind CSS", "Node.js"],
+    techStack: ["ReactJS", "MongoDB", "Tailwind CSS", "Node.js"],
     githubLink: "https://github.com/DishaSingh07/paytm",
     liveDemoLink: "https://paytm-brown-ten.vercel.app/",
     image: projectOneImage,
@@ -104,10 +104,10 @@ const projects = [
     image: projectTwoImage,
   },
   {
-    title: "Project Three",
-    description: "An overview of the project, its purpose, and main tech stack used.",
-    techStack: ["SASS", "Express.js", "PostgreSQL"],
-    githubLink: "https://github.com/username/project-three",
+    title: "Blogging App",
+    description: "A full-featured blogging platform allowing users to create, edit, and publish blog posts",
+    techStack: ["TypeScript", "PostgreSQL", "Express.js"],
+    githubLink: "https://github.com/DishaSingh07/blogging",
     liveDemoLink: "https://username.github.io/project-three",
     image: projectThreeImage,
   },
